@@ -1,10 +1,12 @@
+package Java;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
  * Created by Kyle on 1/22/2015.
  */
-public class One {
+public class One_Multiples {
     private ArrayList<Integer> threes = new ArrayList();
     private int threeCount = 0;
     private ArrayList<Integer> fives = new ArrayList();
@@ -12,7 +14,7 @@ public class One {
     private int sum = 0;
 
     public static void main(String[] args) {
-        One driver = new One();
+        One_Multiples driver = new One_Multiples();
         int max = driver.getMax();
         for (int i = 1; i < max; i++) {
             if (i % 3 == 0) {

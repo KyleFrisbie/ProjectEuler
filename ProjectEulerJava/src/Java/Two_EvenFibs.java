@@ -1,13 +1,15 @@
+package Java;
+
 import java.util.ArrayList;
 
 /**
  * Created by Kyle on 1/23/2015.
  */
-public class Two {
+public class Two_EvenFibs {
     ArrayList<Integer> fibNums;
 
     public static void main(String[] args) {
-        Two driver = new Two();
+        Two_EvenFibs driver = new Two_EvenFibs();
         driver.fibNums = new ArrayList<>();
         driver.fibonacci();
         System.out.println(driver.findSum());
